@@ -1,0 +1,89 @@
+/* Descricao: Aula 12 reproduzir uma tela de login com usuario e senha!
+//nome_arquivo: login.html
+//nome_exercicio: Aula 12 - Introdução aos formulários
+//nome_aluno: Felipe Gabriel de Oliveira
+//email_aluno:felipe.oliveira139@aluno.cps.sp.gov.br
+//turma: do primeiro semestre Código da Turma: WEBI-ISWO28-A 
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial, sans-serif;
+     background-image: url("astronomia.img");
+     background-size: cover;
+     background-position: center;
+     background-repeat: n;
+
+     
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+
+
+}
+
+.login-container {
+
+    background-color:white;
+    width: 350px;
+    padding:30px;
+    border-radius: 10px;
+
+    box-shadow: 0 0 20px rgba(0,0,0, 0.3);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+
+   
+}
+
+button {
+    width: 100%;
+    padding: 12%;
+    border:none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+    
+}
+
+#mensagem {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.links {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.link a {
+    display: block;
+    margin: 8px 0;
+    color:#007bff;
+    text-decoration: none;
+}
+
+.link a:houver{
+text-decoration: underline;
+}

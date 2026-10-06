@@ -1,0 +1,45 @@
+<!-- Descricao: Aula 12 reproduzir uma tela de login com usuario e senha!
+nome_arquivo: login.html
+nome_exercicio: Aula 12 - Introdução aos formulários
+nome_aluno: Felipe Gabriel de Oliveira
+email_aluno:felipe.oliveira139@aluno.cps.sp.gov.br
+turma: do primeiro semestre Código da Turma: WEBI-ISWO28-A --> 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <!-- Titulo da Tela de login -->
+    <title>Tela de Login - Pagina Cosmos</title>
+
+    <!-- Estilo da Pagina -->
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+        <!-- Caixa onde estarao as informacoes -->
+        <div class="login-container" >
+
+            <h1>Login</h1>
+
+            <form id="loginForm"> 
+                <input type="text" id="usuario" placeholder="Usuário" required >
+
+                 <input type="password" id="senha" placeholder="Senha" required >
+
+                 <button type="submit">Entrar</button>
+
+                 <div class="links">
+                    <a href="#">Esqueceu a senha?  |   </a>
+                    <a href="#">Cadastre-se</a>
+                 </div>
+
+                 <p id="mensagem"></p>
+            </form>
+        </div>
+
+        <script src="login.js"></script>
+    
+</body>
+</html>
+
